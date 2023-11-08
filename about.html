@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- favicon -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./dist/img/favicon_io/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./dist/img/favicon_io/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./dist/img/favicon_io/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <!-- animate on scroll cdn -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>AE Angin Indonesia</title>
+  </head>
+
+  <body>
+    <!-- header section start -->
+    <header
+      class="bg-transparent absolute top-0 left-0 w-full z-10 flex items-center navbar-fixed border-b-[1px] border-third"
+    >
+      <div class="container">
+        <div class="flex items-center justify-between relative">
+          <div class="px-4">
+            <a href="#home" class="py-4 block"
+              ><img src="./dist/img/logo.png" alt="AEAI logo's" width="75px"
+            /></a>
+          </div>
+          <div class="flex items-center px-4">
+            <button
+              id="hamburger"
+              name="hamburger"
+              type="button"
+              class="block absolute right-4 lg:hidden"
+            >
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-top-left"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out"
+              ></span>
+              <span
+                class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"
+              ></span>
+            </button>
+            <nav
+              id="nav-menu"
+              class="hidden absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full top-full right-4 z-50 lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none"
+            >
+              <ul class="block lg:flex">
+                <li class="group">
+                  <a
+                    href="./index.html"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >HOME</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./about.html"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >ABOUT</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./memberships.html"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >MEMBERSHIP</a
+                  >
+                </li>
+                <li class="group">
+                  <a
+                    href="./event.html"
+                    class="text-base text-dark py-2 mx-8 flex group-hover:text-primary"
+                    >PROGRAM & EVENT</a
+                  >
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header section end -->
+
+    <section id="home">
+      <div
+        class="bg-cover h-screen"
+        style="background-image: url(./dist/img/page-bg/about.jpg); background-attachment: fixed;"
+      >
+        <div
+          class="h-screen flex justify-center items-center text-center pt-32"
+          data-aos="fade-up"
+          data-aos-duration="1500"
+        >
+          <div class="container px-4">
+            <h1 class="text-4xl font-extrabold mb-2 lg:text-6xl text-white">
+              Asosiasi Energi Angin Indonesia
+            </h1>
+            <h4 class="text-xl font-semibold lg:text-3xl text-slate-100 mb-3">
+              Promoting Wind Power
+            </h4>
+            <a href="/memberships"
+              ><button
+                class="text-base font-semibold text-white bg-primary py-3 px-8 rounded-full w-full hover:opacity-90 hover:shadow-lg max-w-md transition duration-300 ease-in-out"
+              >
+                JOIN US!
+              </button></a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- about section -->
+    <section id="about" class="pt-32 pb-28 bg-slate-200">
+      <div class="container">
+        <div class="w-full px-4 mb-2 max-w-4xl mx-auto">
+          <h3
+            class="text-dark text-2xl font-bold mb-3 text-center lg:text-3xl"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            INTRODUCTION
+          </h3>
+          <p
+            class="text-secondary mb-5"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            “Asosiasi Energi Angin Indonesia – AEAI” or Indonesia Wind Energy
+            Association – IWEA is an industrial association that was formed in
+            2014. The establishment of the AEAI encouraged by the government
+            namely Directorate General of New Renewable Energy & Energy
+            Conservation of Ministry of Energy & Mineral Resources particularly
+            Various Energy Directorate, to respond to the world growth of Wind
+            Power in the last 2 decades. This Industry Association can not be
+            separated from Indonesia Wind Energy Society – MEAI that over the
+            past few years has become a forum for professionals and observers of
+            Wind & Power Energy . Birth of IWEA highly supported by WHyPGen
+            Program, an UNDP – BPPT program during 2013 – 2016 which is very
+            active and focused to promote and encourage the start and
+            development of wind power plants in Indonesia. Birth of AEAI is also
+            supported by a number of various companies; developer of wind power
+            plant ( IPP ) and manufacturing and wind turbine components which in
+            recent years has been prepared to capture this business opportunity.
+          </p>
+          <div class="grid grid-cols-1 gap-2 sm:grid-cols-2">
+            <p
+              class="mb-3 text-secondary"
+              data-aos="fade-right"
+              data-aos-duration="1500"
+            >
+              AEAI is a nonprofit organization accumulating developer of wind
+              power plants and wind turbine component manufacturing in
+              Indonesia. AEAI is partners of the Central Government and Local
+              Government in making policies to improve the utilization of
+              Renewable Energy especially Wind Energy / Wind Power Power Plant
+              in order to improve the robustness of the National Energy which in
+              turn contributed to the economic that can increase the prosperity
+              of the community, the nation and the Republic of Indonesia.
+            </p>
+            <p
+              class="mb-3 text-secondary"
+              data-aos="fade-left"
+              data-aos-duration="1500"
+            >
+              AEAI function is as a bridge of all stakeholders, among others;
+              Develop activities in the field of information, promotion,
+              marketing, advocacy, mediation, consultations and discussions as
+              well as all the activities that can improve the understanding of
+              the creation of a shared vision among all "stakeholders". Provide
+              input and establish cooperation with the government and support
+              the Indonesian Government's efforts to develop wind energy
+              industry in Indonesia. Fostering partnerships with intuitions and
+              abroad. The interests of members, to the extent not inconsistent
+              with the provisions and regulations in force
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section end -->
+
+    <!-- vision mission section -->
+    <section id="visionmission" class="pt-32 pb-28">
+      <div class="container">
+        <div
+          class="w-full px-4 flex flex-wrap justify-center items-center mb-8"
+        >
+          <div
+            class="mb-5 p-4 md:w-1/2"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="./dist/img/visimissi/vision.jpg"
+                alt="Landing Page"
+                width="w-full"
+              />
+            </div>
+          </div>
+          <div
+            class="mb-12 p-4 md:w-1/2"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <h2 class="text-2xl font-bold text-primary lg:text-3xl">VISION</h2>
+            <p>
+              Government partners, industry and other stakeholders in the field
+              of Wind Energy and Power Bayu in the development and utilization
+              of Renewable Energy Wind Energy in Indonesia, especially in order
+              to support energy security and national economic growth.
+            </p>
+          </div>
+        </div>
+        <div
+          class="w-full px-4 flex flex-row-reverse flex-wrap justify-center items-center"
+        >
+          <div
+            class="mb-8 p-4 md:w-1/2"
+            data-aos="fade-left"
+            data-aos-duration="1500"
+          >
+            <div class="rounded-md shadow-md overflow-hidden">
+              <img
+                src="./dist/img/visimissi/mission.jpg"
+                alt="Landing Page"
+                width="w-full"
+              />
+            </div>
+          </div>
+          <div
+            class="mb-12 p-4 md:w-1/2"
+            data-aos="fade-right"
+            data-aos-duration="1500"
+          >
+            <h2 class="text-2xl font-bold text-primary lg:text-3xl">MISSION</h2>
+            <ul class="list-disc">
+              <li>
+                Encourage the creation of a conducive investment climate in the
+                development and utilization of wind energy through close
+                cooperation and mutual benefits among all National Wind Energy /
+                Wind Power Industries.
+              </li>
+              <li>
+                Escorting Policy and Government's target in the development of
+                Wind Energy to support Renewable Energy utilization in
+                accordance to National Energy Policy 2050, which targets 30%
+                contribution of Renewable Energy by 2050.
+              </li>
+              <li>
+                Active in the development of human resources and the development
+                of knowledge, expertise and technology related to wind energy /
+                wind power in cooperation with all stakeholders locally,
+                nationally and internationally.
+              </li>
+              <li>
+                To socialize and educate the public about the potential,
+                benefits and economics of Wind Energy & Wind Power, in order to
+                create common perception and support for Wind Energy & Wind
+                Power.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- vision mission section end -->
+
+    <!-- goals section -->
+    <section id="goals" class="pt-8 pb-28">
+      <div class="container">
+        <!-- <hr class="pt-1 bg-third rounded-full mb-16"> -->
+        <div class="w-full px-4 mb-16 max-w-4xl mx-auto">
+          <h2
+            class="text-2xl font-bold text-primary text-center mb-5 underline lg:text-3xl"
+            data-aos="fade-up"
+            data-aos-duration="1500"
+          >
+            AEAI SHORT TERM GOAL
+          </h2>
+          <ul class="list-disc" data-aos="fade-up" data-aos-duration="1500">
+            <li>
+              The availability of complete regulation in the field of Wind
+              Energy & Wind Power particular selling price of electricity from
+              wind "Feed in Tariff" and fiscal policy.
+            </li>
+            <li>
+              Operation of several Wind power plants commercially ( IPP ) and
+              reduced fuel and electricity subsidies in the operational areas of
+              PLT Bayu.
+            </li>
+            <li>The availability Maps and Data of Wind Indonesia potency.</li>
+            <li>
+              The growth of local Supporting Industries (products and services)
+              of Wind Energy & Power.
+            </li>
+          </ul>
+        </div>
+        <!-- <hr class="pt-1 bg-third rounded-full"> -->
+      </div>
+    </section>
+    <!-- goal section end -->
+
+    <!-- footer start -->
+    <footer
+      class="bg-dark pt-24 pb-12"
+      data-aos="fade-up"
+      data-aos-duration="1500"
+    >
+      <div class="container">
+        <div class="flex flex-wrap">
+          <div class="w-full px-4 mb-12 text-slate-300 font-medium md:w-1/3">
+            <h2 class="font-bold text-4xl text-white mb-5">
+              ASOSIASI ENERGI ANGIN INDONESIA
+            </h2>
+            <h3 class="font-bold text-2xl mb-2">Contact Us</h3>
+            <p class="mb-1">Endang Kuswandi</p>
+            <p class="mb-1">0813-2332-1977</p>
+            <p class="mb-1">Simprug Office Garden</p>
+            <p>Jl. Teuku Nyak Arief 9F, Simprug, Jakarta Selatan 12220</p>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">Page Section</h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="#home"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#about"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Introduction</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#visionmission"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Vision & Mission</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#goals"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Goals</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="w-full px-4 mb-12 md:w-1/3">
+            <h3 class="font-semibold text-xl text-white mb-5">
+              Page Navigation
+            </h3>
+            <ul class="text-slate-300">
+              <li>
+                <a
+                  href="./index.html"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Home</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./about.html"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >About</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./memberships.html"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Membership</a
+                >
+              </li>
+              <li>
+                <a
+                  href="./event.html"
+                  class="inline-block text-base hover:text-primary mb-3"
+                  >Program & Event</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="w-full pt-10 border-t border-slate-700">
+          <div class="flex items-center justify-center mb-5">
+            <!-- linkedin -->
+            <a
+              href="https://www.linkedin.com/company/aeaindonesia/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            ><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>LinkedIn</title><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg></a>
+            <!-- instagram -->
+            <a
+              href="https://instagram.com/aeaindonesia/"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            >
+              <svg
+                role="img"
+                width="20"
+                class="fill-current"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Instagram</title>
+                <path
+                  d="M12 0C8.74 0 8.333.015 7.053.072 5.775.132 4.905.333 4.14.63c-.789.306-1.459.717-2.126 1.384S.935 3.35.63 4.14C.333 4.905.131 5.775.072 7.053.012 8.333 0 8.74 0 12s.015 3.667.072 4.947c.06 1.277.261 2.148.558 2.913.306.788.717 1.459 1.384 2.126.667.666 1.336 1.079 2.126 1.384.766.296 1.636.499 2.913.558C8.333 23.988 8.74 24 12 24s3.667-.015 4.947-.072c1.277-.06 2.148-.262 2.913-.558.788-.306 1.459-.718 2.126-1.384.666-.667 1.079-1.335 1.384-2.126.296-.765.499-1.636.558-2.913.06-1.28.072-1.687.072-4.947s-.015-3.667-.072-4.947c-.06-1.277-.262-2.149-.558-2.913-.306-.789-.718-1.459-1.384-2.126C21.319 1.347 20.651.935 19.86.63c-.765-.297-1.636-.499-2.913-.558C15.667.012 15.26 0 12 0zm0 2.16c3.203 0 3.585.016 4.85.071 1.17.055 1.805.249 2.227.415.562.217.96.477 1.382.896.419.42.679.819.896 1.381.164.422.36 1.057.413 2.227.057 1.266.07 1.646.07 4.85s-.015 3.585-.074 4.85c-.061 1.17-.256 1.805-.421 2.227-.224.562-.479.96-.899 1.382-.419.419-.824.679-1.38.896-.42.164-1.065.36-2.235.413-1.274.057-1.649.07-4.859.07-3.211 0-3.586-.015-4.859-.074-1.171-.061-1.816-.256-2.236-.421-.569-.224-.96-.479-1.379-.899-.421-.419-.69-.824-.9-1.38-.165-.42-.359-1.065-.42-2.235-.045-1.26-.061-1.649-.061-4.844 0-3.196.016-3.586.061-4.861.061-1.17.255-1.814.42-2.234.21-.57.479-.96.9-1.381.419-.419.81-.689 1.379-.898.42-.166 1.051-.361 2.221-.421 1.275-.045 1.65-.06 4.859-.06l.045.03zm0 3.678c-3.405 0-6.162 2.76-6.162 6.162 0 3.405 2.76 6.162 6.162 6.162 3.405 0 6.162-2.76 6.162-6.162 0-3.405-2.76-6.162-6.162-6.162zM12 16c-2.21 0-4-1.79-4-4s1.79-4 4-4 4 1.79 4 4-1.79 4-4 4zm7.846-10.405c0 .795-.646 1.44-1.44 1.44-.795 0-1.44-.646-1.44-1.44 0-.794.646-1.439 1.44-1.439.793-.001 1.44.645 1.44 1.439z"
+                />
+              </svg>
+            </a>
+            <!-- tiktok -->
+            <a
+              href="https://www.tiktok.com/@aeaindonesia"
+              target="_blank"
+              class="w-9 h-9 mr-3 rounded-full flex justify-center items-center text-slate-300 border border-slate-300 hover:border-primary hover:bg-primary hover:text-white"
+            ><svg role="img" width="20" class="fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>TikTok</title><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg></a>
+          </div>
+          <p class="font-medium text-xs text-slate-500 text-center">
+            <span class="text-primary">AEAI Indonesia</span>. Promoting Wind
+            Power
+          </p>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end -->
+
+    <script src="./dist/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
